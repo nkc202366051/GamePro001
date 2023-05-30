@@ -1,0 +1,43 @@
+
+    using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI; //UI機能を扱うときに追記する
+
+public class Scoar : MonoBehaviour
+
+{
+
+    [SerializeField]
+    private int minute;
+    [SerializeField]
+    private float seconds;
+    //　前のUpdateの時の秒数
+    private float oldSeconds;
+    //　タイマー表示用テキスト
+    private Text timerText;
+
+    void Start()
+    {
+        minute = 0;
+        seconds = 0f;
+        oldSeconds = 0f;
+        timerText = GetComponentInChildren<Text>();
+    }
+
+    void Update()
+    {
+        seconds += Time.deltaTime;
+        if (seconds >= 60f)
+        {
+            minute++;
+            seconds = seconds - 60;
+        }
+        //　値が変わった時だけテキストUIを更新
+        if ((int)seconds != (int)oldSeconds)
+        {
+            timerText.text = minute.ToString("000")  + ((int)seconds).ToString("00KM");
+        }
+        oldSeconds = seconds;
+    }
+}
