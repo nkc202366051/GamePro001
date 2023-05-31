@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9eb4abece708854e8a901deb36145ed
-      internalID: 1429863347
+      spriteID: ce5b06feb62f69047b179a360e9fef69
+      internalID: -1188240116
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1b296292a85ec84aa6671fa973ffc7d
-      internalID: 531509704
+      spriteID: b89d22a72d3c071448c275813b4499b9
+      internalID: -1566823254
       vertices: []
       indices: 
       edges: []
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02fff7736f40b624489e44c8a777e552
-      internalID: -1489086104
+      spriteID: 94fbca9ae65232d4698bf6d290433a4f
+      internalID: 2104670844
       vertices: []
       indices: 
       edges: []
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30db647f89c014a4282010e9f09c496c
-      internalID: -162521358
+      spriteID: 43e047a2a209f5a4aab5ace2cdae6909
+      internalID: -1985809360
       vertices: []
       indices: 
       edges: []
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9fe2c787572ae8458bb9abaf241bab2
-      internalID: -253432101
+      spriteID: 4d8aa79f93f002c4f83b7cbdec498fec
+      internalID: 760121104
       vertices: []
       indices: 
       edges: []
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17361eda25d5c114fb851786049dc024
-      internalID: 1797226924
+      spriteID: 7f97b67cbba90584697a3f68f26f2b8d
+      internalID: 1789398273
       vertices: []
       indices: 
       edges: []
@@ -241,12 +241,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Enemy_0: 1429863347
-      Enemy_1: 531509704
-      Enemy_2: -1489086104
-      Enemy_3: -162521358
-      Enemy_4: -253432101
-      Enemy_5: 1797226924
+      Enemy_0: -1188240116
+      Enemy_1: -1566823254
+      Enemy_2: 2104670844
+      Enemy_3: -1985809360
+      Enemy_4: 760121104
+      Enemy_5: 1789398273
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

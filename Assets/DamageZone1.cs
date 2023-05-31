@@ -6,7 +6,7 @@ public class DamageZone1 : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other)
     {
-        Cara controller = other.GetComponent<Cara>();
+        Player controller = other.GetComponent<Player>();
 
         if (controller != null)
         {
